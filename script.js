@@ -32,20 +32,5 @@ alert(movie.title);
 
 var fruits = [ ];
 for (i=1; i< 10 ; i++){
-fruits[i] = prompt("Enter a fruit");
- }
+fruits[i] = prompt("Enter a fruit"); }
 alert("fruits contains " + fruits);
-
-var movie =[
-  {title:"Avengers",time:"3pm",status:"available"}
-  {title:"Captain Marvel",time:"4pm",status:"Black panther"}
-]
-
-for (var movie of movieDetails){
-if (movie.status === "available"){
-console.log("The movie " + movie.title + " plays at " + movie.time) }
-else{
-console.log("Sorry, the movie " + movie.title + " is sold out.")
-} };
-  if (condition){ action}
-else {
